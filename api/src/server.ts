@@ -1,5 +1,6 @@
 import express, { response } from 'express';
 import path from 'path';
+import 'express-async-errors';
 
 import './database/connection';
 import routes from './routes';
