@@ -17,13 +17,8 @@ const SelectMapPosition: React.FC = () => {
   return (
     <View style={styles.container}>
       <MapView 
-        initialRegion={{
-          latitude: -27.2092052,
-          longitude: -49.6401092,
-          latitudeDelta: 0.008,
-          longitudeDelta: 0.008,
-        }}
         style={styles.mapStyle}
+        initialRegion={{latitude: -21.8813806, longitude:-51.8389792, latitudeDelta: 0.008, longitudeDelta: 0.008}}
       >
         <Marker 
           icon={mapMarkerImg}
